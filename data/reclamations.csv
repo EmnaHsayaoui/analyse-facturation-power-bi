@@ -1,0 +1,534 @@
+reclamation_id,facture_id,date_reclamation,type_reclamation,delai_resolution_jours,statut_reclamation
+REC00001,F000032,2024-01-14,Question sur le détail,6,Résolue
+REC00002,F000039,2024-01-21,Question sur le détail,9,Résolue
+REC00003,F000080,2024-02-10,Taxe incorrecte,8,Résolue
+REC00004,F000086,2024-02-02,Relevé manquant,11,Résolue
+REC00005,F000106,2024-02-20,Question sur le détail,7,Résolue
+REC00006,F000114,2024-02-06,Question sur le détail,6,Résolue
+REC00007,F000126,2024-02-13,Relevé manquant,6,Résolue
+REC00008,F000137,2024-01-25,Facture en double,10,Résolue
+REC00009,F000152,2024-01-16,Relevé manquant,9,Résolue
+REC00010,F000192,2024-03-08,Facture en double,5,Résolue
+REC00011,F000193,2024-01-12,Question sur le détail,7,Résolue
+REC00012,F000203,2024-02-24,Relevé manquant,8,Résolue
+REC00013,F000215,2024-02-04,Erreur de montant,7,Résolue
+REC00014,F000217,2024-02-20,Taxe incorrecte,9,Résolue
+REC00015,F000226,2024-02-05,Question sur le détail,3,Résolue
+REC00016,F000232,2024-01-30,Erreur de montant,7,Résolue
+REC00017,F000239,2024-01-14,Question sur le détail,4,Résolue
+REC00018,F000246,2024-01-20,Taxe incorrecte,9,Résolue
+REC00019,F000253,2024-02-06,Facture en double,10,Résolue
+REC00020,F000254,2024-02-23,Relevé manquant,7,Résolue
+REC00021,F000257,2024-01-26,Commission contestée,6,Résolue
+REC00022,F000265,2024-02-09,Erreur de montant,8,Résolue
+REC00023,F000293,2024-03-08,Relevé manquant,10,Résolue
+REC00024,F000314,2024-01-21,Erreur de montant,7,Résolue
+REC00025,F000327,2024-03-18,Taxe incorrecte,6,Résolue
+REC00026,F000332,2024-02-17,Relevé manquant,9,Résolue
+REC00027,F000333,2024-02-11,Taxe incorrecte,9,Résolue
+REC00028,F000336,2024-02-12,Facture en double,7,Résolue
+REC00029,F000353,2024-03-06,Erreur de montant,10,Résolue
+REC00030,F000367,2024-02-09,Relevé manquant,7,Résolue
+REC00031,F000380,2024-02-05,Commission contestée,3,Résolue
+REC00032,F000383,2024-02-11,Erreur de montant,6,Résolue
+REC00033,F000403,2024-02-27,Commission contestée,6,Résolue
+REC00034,F000404,2024-01-20,Commission contestée,5,Résolue
+REC00035,F000415,2024-02-26,Relevé manquant,9,Résolue
+REC00036,F000437,2024-03-17,Commission contestée,5,Résolue
+REC00037,F000458,2024-03-08,Taxe incorrecte,7,Résolue
+REC00038,F000470,2024-02-21,Autre,2,Résolue
+REC00039,F000478,2024-01-12,Erreur de montant,7,Résolue
+REC00040,F000512,2024-02-14,Relevé manquant,7,Résolue
+REC00041,F000523,2024-03-08,Question sur le détail,9,Résolue
+REC00042,F000543,2024-03-15,Taxe incorrecte,9,Résolue
+REC00043,F000561,2024-02-20,Commission contestée,6,Résolue
+REC00044,F000580,2024-01-20,Erreur de montant,10,Résolue
+REC00045,F000609,2024-02-22,Taxe incorrecte,5,Résolue
+REC00046,F000612,2024-03-17,Erreur de montant,7,Résolue
+REC00047,F000613,2024-02-17,Question sur le détail,9,Résolue
+REC00048,F000616,2024-02-02,Facture en double,7,Résolue
+REC00049,F000620,2024-03-24,Erreur de montant,6,Résolue
+REC00050,F000627,2024-02-16,Question sur le détail,6,Résolue
+REC00051,F000628,2024-03-31,Question sur le détail,10,Résolue
+REC00052,F000640,2024-03-27,Erreur de montant,8,Résolue
+REC00053,F000685,2024-03-04,Erreur de montant,8,Résolue
+REC00054,F000686,2024-02-27,Question sur le détail,8,Résolue
+REC00055,F000689,2024-03-13,Erreur de montant,8,Résolue
+REC00056,F000703,2024-02-01,Commission contestée,6,Résolue
+REC00057,F000722,2024-04-03,Facture en double,7,Résolue
+REC00058,F000732,2024-04-09,Question sur le détail,8,Résolue
+REC00059,F000739,2024-02-09,Erreur de montant,9,Résolue
+REC00060,F000754,2024-04-20,Relevé manquant,9,Résolue
+REC00061,F000765,2024-03-29,Commission contestée,7,Résolue
+REC00062,F000771,2024-03-21,Relevé manquant,8,Résolue
+REC00063,F000798,2024-03-15,Erreur de montant,10,Résolue
+REC00064,F000804,2024-03-04,Relevé manquant,6,Résolue
+REC00065,F000820,2024-03-09,Question sur le détail,12,Résolue
+REC00066,F000821,2024-02-07,Facture en double,10,Résolue
+REC00067,F000823,2024-03-14,Erreur de montant,5,Résolue
+REC00068,F000837,2024-04-19,Question sur le détail,6,Résolue
+REC00069,F000846,2024-03-29,Erreur de montant,7,Résolue
+REC00070,F000868,2024-03-16,Relevé manquant,9,Résolue
+REC00071,F000883,2024-03-06,Question sur le détail,5,Résolue
+REC00072,F000887,2024-03-07,Erreur de montant,12,Résolue
+REC00073,F000897,2024-03-19,Relevé manquant,8,Résolue
+REC00074,F000916,2024-05-05,Erreur de montant,5,Résolue
+REC00075,F000945,2024-02-15,Erreur de montant,6,Résolue
+REC00076,F000947,2024-03-30,Relevé manquant,9,Résolue
+REC00077,F000972,2024-04-17,Commission contestée,10,Résolue
+REC00078,F001013,2024-03-03,Facture en double,4,Résolue
+REC00079,F001022,2024-04-25,Erreur de montant,12,Résolue
+REC00080,F001049,2024-05-15,Taxe incorrecte,3,Résolue
+REC00081,F001069,2024-05-20,Erreur de montant,4,Résolue
+REC00082,F001073,2024-05-21,Erreur de montant,9,Résolue
+REC00083,F001095,2024-03-24,Taxe incorrecte,7,Résolue
+REC00084,F001096,2024-04-10,Relevé manquant,8,Résolue
+REC00085,F001106,2024-05-10,Question sur le détail,8,Résolue
+REC00086,F001112,2024-05-28,Relevé manquant,5,Résolue
+REC00087,F001116,2024-04-26,Question sur le détail,6,Résolue
+REC00088,F001122,2024-04-04,Question sur le détail,8,Résolue
+REC00089,F001153,2024-03-09,Question sur le détail,6,Résolue
+REC00090,F001155,2024-03-01,Relevé manquant,6,Résolue
+REC00091,F001164,2024-04-19,Relevé manquant,10,Résolue
+REC00092,F001168,2024-04-03,Autre,7,Résolue
+REC00093,F001175,2024-05-13,Question sur le détail,8,Résolue
+REC00094,F001179,2024-04-22,Relevé manquant,5,Résolue
+REC00095,F001233,2024-04-10,Taxe incorrecte,12,Résolue
+REC00096,F001248,2024-05-20,Question sur le détail,9,Résolue
+REC00097,F001251,2024-05-16,Erreur de montant,5,Résolue
+REC00098,F001266,2024-05-31,Relevé manquant,7,Résolue
+REC00099,F001269,2024-05-16,Commission contestée,6,Résolue
+REC00100,F001289,2024-05-20,Autre,8,Résolue
+REC00101,F001325,2024-05-28,Taxe incorrecte,10,Résolue
+REC00102,F001336,2024-04-27,Commission contestée,8,Résolue
+REC00103,F001366,2024-05-30,Erreur de montant,11,Résolue
+REC00104,F001382,2024-04-15,Question sur le détail,6,Résolue
+REC00105,F001391,2024-04-09,Commission contestée,9,Résolue
+REC00106,F001399,2024-06-30,Facture en double,4,Résolue
+REC00107,F001409,2024-06-07,Commission contestée,9,Résolue
+REC00108,F001415,2024-06-04,Facture en double,3,Résolue
+REC00109,F001429,2024-05-11,Taxe incorrecte,4,Résolue
+REC00110,F001430,2024-04-09,Question sur le détail,10,Résolue
+REC00111,F001432,2024-05-23,Question sur le détail,10,Résolue
+REC00112,F001447,2024-05-17,Erreur de montant,7,Résolue
+REC00113,F001449,2024-04-15,Relevé manquant,7,Résolue
+REC00114,F001454,2024-04-23,Commission contestée,8,Résolue
+REC00115,F001459,2024-05-11,Erreur de montant,7,Résolue
+REC00116,F001465,2024-05-21,Commission contestée,6,Résolue
+REC00117,F001477,2024-04-15,Erreur de montant,8,Résolue
+REC00118,F001480,2024-06-03,Autre,7,Résolue
+REC00119,F001490,2024-05-12,Erreur de montant,7,Résolue
+REC00120,F001493,2024-04-22,Commission contestée,11,Résolue
+REC00121,F001495,2024-04-12,Taxe incorrecte,8,Résolue
+REC00122,F001525,2024-05-29,Erreur de montant,6,Résolue
+REC00123,F001553,2024-05-24,Erreur de montant,6,Résolue
+REC00124,F001559,2024-05-18,Facture en double,7,Résolue
+REC00125,F001566,2024-04-29,Question sur le détail,10,Résolue
+REC00126,F001580,2024-05-06,Taxe incorrecte,7,Résolue
+REC00127,F001589,2024-06-10,Taxe incorrecte,7,Résolue
+REC00128,F001615,2024-06-07,Erreur de montant,9,Résolue
+REC00129,F001625,2024-04-24,Taxe incorrecte,5,Résolue
+REC00130,F001626,2024-07-15,Taxe incorrecte,5,Résolue
+REC00131,F001637,2024-05-13,Erreur de montant,5,Résolue
+REC00132,F001657,2024-05-14,Commission contestée,9,Résolue
+REC00133,F001663,2024-05-08,Question sur le détail,9,Résolue
+REC00134,F001664,2024-06-04,Autre,8,Résolue
+REC00135,F001673,2024-07-21,Question sur le détail,6,Résolue
+REC00136,F001686,2024-05-08,Autre,8,Résolue
+REC00137,F001700,2024-05-14,Question sur le détail,7,Résolue
+REC00138,F001708,2024-06-07,Erreur de montant,9,Résolue
+REC00139,F001710,2024-05-24,Commission contestée,10,Résolue
+REC00140,F001711,2024-06-12,Relevé manquant,7,Résolue
+REC00141,F001719,2024-07-14,Taxe incorrecte,8,Résolue
+REC00142,F001728,2024-05-17,Commission contestée,9,Résolue
+REC00143,F001757,2024-05-03,Erreur de montant,7,Résolue
+REC00144,F001763,2024-05-24,Relevé manquant,7,Résolue
+REC00145,F001764,2024-06-27,Erreur de montant,11,Résolue
+REC00146,F001783,2024-05-31,Relevé manquant,7,Résolue
+REC00147,F001815,2024-05-12,Erreur de montant,6,Résolue
+REC00148,F001827,2024-05-05,Taxe incorrecte,9,Résolue
+REC00149,F001836,2024-08-05,Erreur de montant,6,Résolue
+REC00150,F001851,2024-07-11,Question sur le détail,9,Résolue
+REC00151,F001863,2024-06-26,Taxe incorrecte,8,Résolue
+REC00152,F001876,2024-05-16,Taxe incorrecte,10,Résolue
+REC00153,F001909,2024-06-03,Commission contestée,9,Résolue
+REC00154,F001918,2024-06-03,Erreur de montant,6,Résolue
+REC00155,F001920,2024-07-05,Question sur le détail,7,Résolue
+REC00156,F001929,2024-07-07,Relevé manquant,9,Résolue
+REC00157,F001930,2024-06-15,Erreur de montant,11,Résolue
+REC00158,F001941,2024-06-03,Question sur le détail,5,Résolue
+REC00159,F001959,2024-06-18,Erreur de montant,10,Résolue
+REC00160,F001960,2024-07-17,Taxe incorrecte,9,Résolue
+REC00161,F001981,2024-07-09,Erreur de montant,10,Résolue
+REC00162,F001983,2024-07-06,Autre,7,Résolue
+REC00163,F001987,2024-06-01,Taxe incorrecte,4,Résolue
+REC00164,F002010,2024-08-02,Autre,9,Résolue
+REC00165,F002022,2024-08-03,Relevé manquant,11,Résolue
+REC00166,F002030,2024-08-07,Erreur de montant,9,Résolue
+REC00167,F002062,2024-06-04,Erreur de montant,4,Résolue
+REC00168,F002071,2024-08-12,Autre,7,Résolue
+REC00169,F002102,2024-08-02,Erreur de montant,7,Résolue
+REC00170,F002124,2024-06-27,Question sur le détail,8,Résolue
+REC00171,F002131,2024-08-05,Relevé manquant,7,Résolue
+REC00172,F002138,2024-07-28,Erreur de montant,7,Résolue
+REC00173,F002148,2024-07-06,Facture en double,8,Résolue
+REC00174,F002151,2024-08-24,Question sur le détail,6,Résolue
+REC00175,F002173,2024-06-26,Commission contestée,4,Résolue
+REC00176,F002188,2024-07-22,Taxe incorrecte,7,Résolue
+REC00177,F002195,2024-07-19,Erreur de montant,9,Résolue
+REC00178,F002215,2024-07-23,Autre,7,Résolue
+REC00179,F002262,2024-08-05,Relevé manquant,9,Résolue
+REC00180,F002278,2024-08-13,Erreur de montant,7,Résolue
+REC00181,F002285,2024-06-28,Erreur de montant,9,Résolue
+REC00182,F002306,2024-07-23,Taxe incorrecte,6,Résolue
+REC00183,F002334,2024-07-06,Erreur de montant,11,Résolue
+REC00184,F002339,2024-06-21,Relevé manquant,7,Résolue
+REC00185,F002347,2024-09-04,Erreur de montant,8,Résolue
+REC00186,F002348,2024-08-10,Question sur le détail,7,Résolue
+REC00187,F002361,2024-09-07,Relevé manquant,7,Résolue
+REC00188,F002412,2024-08-22,Erreur de montant,6,Résolue
+REC00189,F002424,2024-07-19,Relevé manquant,4,Résolue
+REC00190,F002445,2024-09-10,Commission contestée,11,Résolue
+REC00191,F002449,2024-08-17,Relevé manquant,7,Résolue
+REC00192,F002451,2024-07-16,Facture en double,3,Résolue
+REC00193,F002453,2024-07-18,Relevé manquant,6,Résolue
+REC00194,F002461,2024-09-11,Question sur le détail,5,Résolue
+REC00195,F002505,2024-09-11,Relevé manquant,10,Résolue
+REC00196,F002563,2024-09-14,Erreur de montant,8,Résolue
+REC00197,F002576,2024-08-19,Commission contestée,6,Résolue
+REC00198,F002577,2024-09-22,Taxe incorrecte,10,Résolue
+REC00199,F002592,2024-08-21,Erreur de montant,8,Résolue
+REC00200,F002603,2024-10-04,Erreur de montant,9,Résolue
+REC00201,F002605,2024-07-19,Taxe incorrecte,8,Résolue
+REC00202,F002617,2024-07-27,Question sur le détail,9,Résolue
+REC00203,F002623,2024-08-06,Facture en double,9,Résolue
+REC00204,F002634,2024-08-21,Erreur de montant,5,Résolue
+REC00205,F002643,2024-07-25,Relevé manquant,8,Résolue
+REC00206,F002649,2024-07-22,Erreur de montant,8,Résolue
+REC00207,F002660,2024-08-13,Erreur de montant,10,Résolue
+REC00208,F002665,2024-08-16,Erreur de montant,5,Résolue
+REC00209,F002672,2024-08-27,Relevé manquant,8,Résolue
+REC00210,F002693,2024-09-01,Question sur le détail,9,Résolue
+REC00211,F002698,2024-09-12,Facture en double,8,Résolue
+REC00212,F002701,2024-07-19,Autre,9,Résolue
+REC00213,F002712,2024-10-06,Autre,7,Résolue
+REC00214,F002733,2024-09-08,Taxe incorrecte,3,Résolue
+REC00215,F002735,2024-09-20,Taxe incorrecte,10,Résolue
+REC00216,F002739,2024-10-08,Erreur de montant,4,Résolue
+REC00217,F002741,2024-09-22,Question sur le détail,5,Résolue
+REC00218,F002746,2024-08-13,Taxe incorrecte,6,Résolue
+REC00219,F002750,2024-08-04,Taxe incorrecte,8,Résolue
+REC00220,F002756,2024-08-30,Erreur de montant,10,Résolue
+REC00221,F002761,2024-09-18,Question sur le détail,9,Résolue
+REC00222,F002780,2024-08-27,Question sur le détail,5,Résolue
+REC00223,F002781,2024-09-03,Facture en double,7,Résolue
+REC00224,F002782,2024-10-05,Autre,6,Résolue
+REC00225,F002809,2024-10-16,Erreur de montant,9,Résolue
+REC00226,F002821,2024-07-27,Erreur de montant,9,Résolue
+REC00227,F002823,2024-07-27,Erreur de montant,4,Résolue
+REC00228,F002829,2024-09-14,Question sur le détail,8,Résolue
+REC00229,F002831,2024-09-22,Erreur de montant,7,Résolue
+REC00230,F002857,2024-09-02,Erreur de montant,5,Résolue
+REC00231,F002859,2024-08-20,Erreur de montant,9,Résolue
+REC00232,F002878,2024-09-12,Taxe incorrecte,8,Résolue
+REC00233,F002887,2024-09-13,Question sur le détail,8,Résolue
+REC00234,F002889,2024-08-13,Commission contestée,9,Résolue
+REC00235,F002901,2024-09-16,Relevé manquant,10,Résolue
+REC00236,F002903,2024-08-14,Relevé manquant,8,Résolue
+REC00237,F002924,2024-08-14,Question sur le détail,8,Résolue
+REC00238,F002943,2024-08-14,Question sur le détail,7,Résolue
+REC00239,F002961,2024-10-27,Facture en double,5,Résolue
+REC00240,F002966,2024-09-09,Taxe incorrecte,5,Résolue
+REC00241,F002974,2024-10-09,Relevé manquant,6,Résolue
+REC00242,F002979,2024-09-24,Question sur le détail,6,Résolue
+REC00243,F002998,2024-07-23,Taxe incorrecte,5,Résolue
+REC00244,F003013,2024-10-16,Relevé manquant,10,Résolue
+REC00245,F003047,2024-08-27,Erreur de montant,7,Résolue
+REC00246,F003049,2024-09-23,Erreur de montant,7,Résolue
+REC00247,F003056,2024-09-18,Relevé manquant,7,Résolue
+REC00248,F003072,2024-09-25,Relevé manquant,9,Résolue
+REC00249,F003116,2024-10-23,Commission contestée,7,Résolue
+REC00250,F003140,2024-08-17,Taxe incorrecte,11,Résolue
+REC00251,F003147,2024-09-19,Autre,5,Résolue
+REC00252,F003165,2024-10-26,Taxe incorrecte,11,Résolue
+REC00253,F003197,2024-09-19,Autre,5,Résolue
+REC00254,F003221,2024-09-14,Taxe incorrecte,7,Résolue
+REC00255,F003228,2024-11-01,Taxe incorrecte,8,Résolue
+REC00256,F003237,2024-09-06,Erreur de montant,7,Résolue
+REC00257,F003285,2024-09-15,Autre,10,Résolue
+REC00258,F003295,2024-11-04,Commission contestée,8,Résolue
+REC00259,F003351,2024-09-25,Erreur de montant,5,Résolue
+REC00260,F003356,2024-10-14,Erreur de montant,4,Résolue
+REC00261,F003413,2024-08-29,Taxe incorrecte,10,Résolue
+REC00262,F003416,2024-10-29,Commission contestée,10,Résolue
+REC00263,F003435,2024-09-11,Relevé manquant,5,Résolue
+REC00264,F003468,2024-09-20,Erreur de montant,6,Résolue
+REC00265,F003473,2024-10-03,Erreur de montant,9,Résolue
+REC00266,F003476,2024-11-15,Question sur le détail,6,Résolue
+REC00267,F003487,2024-09-03,Relevé manquant,6,Résolue
+REC00268,F003489,2024-11-22,Erreur de montant,8,Résolue
+REC00269,F003496,2024-10-19,Autre,5,Résolue
+REC00270,F003579,2024-11-15,Commission contestée,9,Résolue
+REC00271,F003595,2024-10-04,Autre,12,Résolue
+REC00272,F003596,2024-10-25,Erreur de montant,7,Résolue
+REC00273,F003611,2024-09-16,Erreur de montant,4,Résolue
+REC00274,F003612,2024-10-26,Erreur de montant,9,Résolue
+REC00275,F003629,2024-11-11,Facture en double,7,Résolue
+REC00276,F003639,2024-10-28,Facture en double,4,Résolue
+REC00277,F003640,2024-11-22,Commission contestée,4,Résolue
+REC00278,F003642,2024-11-07,Taxe incorrecte,9,Résolue
+REC00279,F003659,2024-11-02,Question sur le détail,7,Résolue
+REC00280,F003665,2024-10-15,Relevé manquant,7,Résolue
+REC00281,F003671,2024-10-01,Question sur le détail,7,Résolue
+REC00282,F003673,2024-10-28,Taxe incorrecte,8,Résolue
+REC00283,F003712,2024-09-17,Taxe incorrecte,7,Résolue
+REC00284,F003746,2024-11-18,Erreur de montant,6,Résolue
+REC00285,F003750,2024-11-13,Erreur de montant,7,Résolue
+REC00286,F003751,2024-09-18,Facture en double,6,Résolue
+REC00287,F003758,2024-09-27,Taxe incorrecte,11,Résolue
+REC00288,F003792,2024-09-20,Autre,9,Résolue
+REC00289,F003827,2024-11-06,Question sur le détail,10,Résolue
+REC00290,F003851,2024-11-05,Relevé manquant,7,Résolue
+REC00291,F003856,2024-10-18,Erreur de montant,8,Résolue
+REC00292,F003913,2024-10-31,Question sur le détail,9,Résolue
+REC00293,F003934,2024-11-25,Autre,10,Résolue
+REC00294,F003942,2024-11-24,Erreur de montant,5,Résolue
+REC00295,F003943,2024-10-25,Commission contestée,9,Résolue
+REC00296,F003954,2024-11-23,Question sur le détail,8,Résolue
+REC00297,F003976,2024-10-20,Autre,14,Résolue
+REC00298,F003978,2024-10-25,Question sur le détail,6,Résolue
+REC00299,F004029,2024-10-24,Taxe incorrecte,9,Résolue
+REC00300,F004050,2024-12-07,Taxe incorrecte,5,Résolue
+REC00301,F004055,2024-10-09,Facture en double,8,Résolue
+REC00302,F004059,2024-11-04,Erreur de montant,6,Résolue
+REC00303,F004083,2024-10-27,Taxe incorrecte,12,Résolue
+REC00304,F004091,2024-12-15,Erreur de montant,9,Résolue
+REC00305,F004124,2024-10-29,Commission contestée,6,Résolue
+REC00306,F004128,2024-11-14,Question sur le détail,9,Résolue
+REC00307,F004129,2024-10-25,Erreur de montant,8,Résolue
+REC00308,F004132,2024-11-05,Taxe incorrecte,9,Résolue
+REC00309,F004137,2024-11-04,Autre,6,Résolue
+REC00310,F004142,2024-11-04,Question sur le détail,5,Résolue
+REC00311,F004169,2024-11-14,Commission contestée,6,Résolue
+REC00312,F004171,2024-12-06,Facture en double,4,Résolue
+REC00313,F004186,2024-11-05,Erreur de montant,8,Résolue
+REC00314,F004188,2025-01-04,Facture en double,6,Résolue
+REC00315,F004190,2024-11-20,Autre,6,Résolue
+REC00316,F004249,2024-11-02,Relevé manquant,8,Résolue
+REC00317,F004257,2024-10-21,Taxe incorrecte,11,Résolue
+REC00318,F004265,2024-11-23,Facture en double,9,Résolue
+REC00319,F004270,2024-12-06,Question sur le détail,6,Résolue
+REC00320,F004273,2024-11-29,Facture en double,8,Résolue
+REC00321,F004345,2025-01-22,Taxe incorrecte,7,Résolue
+REC00322,F004346,2025-01-17,Taxe incorrecte,7,Résolue
+REC00323,F004378,2024-11-22,Relevé manquant,9,Résolue
+REC00324,F004386,2024-12-17,Taxe incorrecte,8,Résolue
+REC00325,F004393,2024-12-06,Erreur de montant,7,Résolue
+REC00326,F004397,2024-11-01,Taxe incorrecte,10,Résolue
+REC00327,F004402,2024-11-28,Relevé manquant,10,Résolue
+REC00328,F004408,2024-11-18,Facture en double,6,Résolue
+REC00329,F004420,2024-11-17,Question sur le détail,6,Résolue
+REC00330,F004448,2024-12-05,Question sur le détail,8,Résolue
+REC00331,F004460,2025-01-24,Erreur de montant,8,Résolue
+REC00332,F004481,2024-11-28,Erreur de montant,7,Résolue
+REC00333,F004485,2024-11-24,Erreur de montant,5,Résolue
+REC00334,F004500,2024-11-09,Question sur le détail,7,Résolue
+REC00335,F004507,2025-01-26,Facture en double,9,Résolue
+REC00336,F004511,2024-12-19,Taxe incorrecte,8,Résolue
+REC00337,F004517,2024-12-30,Taxe incorrecte,2,Résolue
+REC00338,F004527,2025-02-06,Taxe incorrecte,5,Résolue
+REC00339,F004540,2024-11-30,Erreur de montant,8,Résolue
+REC00340,F004543,2025-01-08,Question sur le détail,6,Résolue
+REC00341,F004564,2024-12-12,Facture en double,11,Résolue
+REC00342,F004578,2024-12-26,Relevé manquant,6,Résolue
+REC00343,F004580,2025-01-04,Taxe incorrecte,9,Résolue
+REC00344,F004593,2025-01-02,Relevé manquant,7,Résolue
+REC00345,F004608,2024-12-06,Erreur de montant,9,Résolue
+REC00346,F004613,2024-12-21,Erreur de montant,10,Résolue
+REC00347,F004637,2024-12-22,Erreur de montant,8,Résolue
+REC00348,F004639,2024-12-22,Erreur de montant,8,Résolue
+REC00349,F004652,2025-02-18,Commission contestée,6,Résolue
+REC00350,F004661,2025-02-01,Taxe incorrecte,7,Résolue
+REC00351,F004664,2025-02-11,Erreur de montant,8,Résolue
+REC00352,F004676,2025-01-07,Erreur de montant,8,Résolue
+REC00353,F004684,2024-12-29,Question sur le détail,8,Résolue
+REC00354,F004685,2025-01-25,Question sur le détail,8,Résolue
+REC00355,F004686,2024-12-28,Taxe incorrecte,10,Résolue
+REC00356,F004697,2024-11-22,Commission contestée,7,Résolue
+REC00357,F004716,2025-02-17,Facture en double,8,Résolue
+REC00358,F004724,2025-01-19,Facture en double,7,Résolue
+REC00359,F004780,2025-02-03,Erreur de montant,9,Résolue
+REC00360,F004783,2024-12-17,Facture en double,8,Résolue
+REC00361,F004787,2025-01-07,Relevé manquant,6,Résolue
+REC00362,F004788,2025-02-27,Relevé manquant,8,Résolue
+REC00363,F004805,2025-01-07,Relevé manquant,9,Résolue
+REC00364,F004807,2024-12-18,Autre,7,Résolue
+REC00365,F004834,2025-01-24,Question sur le détail,9,Résolue
+REC00366,F004855,2025-01-24,Facture en double,8,Résolue
+REC00367,F004868,2025-02-20,Question sur le détail,9,Résolue
+REC00368,F004870,2025-01-20,Autre,6,Résolue
+REC00369,F004880,2025-03-04,Commission contestée,11,Résolue
+REC00370,F004887,2025-01-12,Facture en double,6,Résolue
+REC00371,F004896,2025-02-06,Commission contestée,7,Résolue
+REC00372,F004900,2025-03-04,Commission contestée,6,Résolue
+REC00373,F004908,2025-01-01,Erreur de montant,7,Résolue
+REC00374,F004936,2025-01-16,Taxe incorrecte,6,Résolue
+REC00375,F004955,2025-02-18,Facture en double,4,Résolue
+REC00376,F004996,2025-01-25,Erreur de montant,7,Résolue
+REC00377,F005005,2025-02-10,Question sur le détail,11,Résolue
+REC00378,F005008,2024-12-29,Erreur de montant,9,Résolue
+REC00379,F005016,2025-01-22,Facture en double,7,Résolue
+REC00380,F005025,2025-02-18,Erreur de montant,10,Résolue
+REC00381,F005044,2025-01-19,Taxe incorrecte,6,Résolue
+REC00382,F005051,2025-02-08,Commission contestée,5,Résolue
+REC00383,F005074,2025-03-03,Commission contestée,11,Résolue
+REC00384,F005079,2025-02-19,Erreur de montant,10,Résolue
+REC00385,F005082,2024-12-23,Erreur de montant,12,Résolue
+REC00386,F005104,2025-01-18,Relevé manquant,3,Résolue
+REC00387,F005116,2025-02-19,Question sur le détail,8,Résolue
+REC00388,F005119,2025-01-16,Autre,11,Résolue
+REC00389,F005134,2025-02-27,Relevé manquant,9,Résolue
+REC00390,F005142,2025-03-11,Taxe incorrecte,8,Résolue
+REC00391,F005148,2025-02-14,Commission contestée,8,Résolue
+REC00392,F005151,2025-02-14,Taxe incorrecte,8,Résolue
+REC00393,F005160,2025-01-24,Taxe incorrecte,8,Résolue
+REC00394,F005163,2025-03-13,Autre,8,Résolue
+REC00395,F005166,2025-01-31,Commission contestée,10,Résolue
+REC00396,F005185,2025-03-08,Facture en double,8,Résolue
+REC00397,F005195,2025-02-27,Question sur le détail,7,Résolue
+REC00398,F005204,2025-02-10,Relevé manquant,8,Résolue
+REC00399,F005215,2025-02-13,Facture en double,4,Résolue
+REC00400,F005217,2025-01-04,Taxe incorrecte,7,Résolue
+REC00401,F005221,2025-03-14,Autre,9,Résolue
+REC00402,F005229,2025-01-27,Question sur le détail,8,Résolue
+REC00403,F005254,2025-01-29,Commission contestée,5,Résolue
+REC00404,F005268,2025-01-10,Commission contestée,6,Résolue
+REC00405,F005278,2025-02-08,Commission contestée,8,Résolue
+REC00406,F005289,2025-02-01,Taxe incorrecte,7,Résolue
+REC00407,F005302,2025-02-16,Taxe incorrecte,13,Résolue
+REC00408,F005319,2025-01-25,Relevé manquant,9,Résolue
+REC00409,F005329,2025-02-16,Erreur de montant,7,Résolue
+REC00410,F005346,2025-03-13,Taxe incorrecte,6,Résolue
+REC00411,F005362,2025-03-03,Taxe incorrecte,5,Résolue
+REC00412,F005387,2025-02-12,Taxe incorrecte,8,Résolue
+REC00413,F005403,2025-01-20,Facture en double,9,Résolue
+REC00414,F005407,2025-03-02,Erreur de montant,10,Résolue
+REC00415,F005415,2025-01-17,Taxe incorrecte,8,Résolue
+REC00416,F005444,2025-02-25,Erreur de montant,4,Résolue
+REC00417,F005505,2025-02-14,Taxe incorrecte,8,Résolue
+REC00418,F005558,2025-02-10,Erreur de montant,10,Résolue
+REC00419,F005578,2025-02-23,Autre,6,Résolue
+REC00420,F005601,2025-04-11,Autre,2,Résolue
+REC00421,F005615,2025-03-06,Commission contestée,9,Résolue
+REC00422,F005625,2025-01-29,Relevé manquant,9,Résolue
+REC00423,F005634,2025-04-22,Erreur de montant,3,Résolue
+REC00424,F005660,2025-02-24,Commission contestée,10,Résolue
+REC00425,F005667,2025-03-04,Erreur de montant,7,Résolue
+REC00426,F005692,2025-03-28,Question sur le détail,6,Résolue
+REC00427,F005738,2025-03-07,Erreur de montant,7,Résolue
+REC00428,F005746,2025-03-04,Erreur de montant,7,Résolue
+REC00429,F005751,2025-02-25,Erreur de montant,6,Résolue
+REC00430,F005756,2025-03-27,Question sur le détail,6,Résolue
+REC00431,F005763,2025-04-28,Erreur de montant,4,Résolue
+REC00432,F005777,2025-03-08,Erreur de montant,10,Résolue
+REC00433,F005782,2025-02-16,Question sur le détail,10,Résolue
+REC00434,F005802,2025-02-26,Relevé manquant,5,Résolue
+REC00435,F005836,2025-03-04,Commission contestée,6,Résolue
+REC00436,F005839,2025-03-16,Autre,6,Résolue
+REC00437,F005896,2025-03-20,Erreur de montant,1,Résolue
+REC00438,F005935,2025-03-13,Relevé manquant,6,Résolue
+REC00439,F005942,2025-03-14,Facture en double,8,Résolue
+REC00440,F005951,2025-02-23,Relevé manquant,4,Résolue
+REC00441,F005976,2025-04-10,Relevé manquant,3,Résolue
+REC00442,F005999,2025-05-02,Autre,5,Résolue
+REC00443,F006051,2025-05-26,Autre,6,Résolue
+REC00444,F006070,2025-05-13,Relevé manquant,6,Résolue
+REC00445,F006071,2025-05-01,Question sur le détail,2,Résolue
+REC00446,F006074,2025-03-14,Question sur le détail,3,Résolue
+REC00447,F006157,2025-05-02,Facture en double,3,Résolue
+REC00448,F006305,2025-04-09,Erreur de montant,1,Résolue
+REC00449,F006357,2025-05-15,Erreur de montant,2,Résolue
+REC00450,F006424,2025-04-22,Taxe incorrecte,4,Résolue
+REC00451,F006469,2025-05-18,Question sur le détail,1,Résolue
+REC00452,F006499,2025-04-25,Relevé manquant,6,Résolue
+REC00453,F006577,2025-04-26,Taxe incorrecte,8,Résolue
+REC00454,F006579,2025-05-27,Erreur de montant,9,Résolue
+REC00455,F006595,2025-04-09,Autre,1,Résolue
+REC00456,F006610,2025-04-21,Relevé manquant,7,Résolue
+REC00457,F006613,2025-04-27,Relevé manquant,4,Résolue
+REC00458,F006635,2025-05-27,Question sur le détail,3,Résolue
+REC00459,F006681,2025-05-03,Facture en double,2,Résolue
+REC00460,F006762,2025-06-22,Erreur de montant,2,Résolue
+REC00461,F006770,2025-05-24,Autre,1,Résolue
+REC00462,F006869,2025-05-11,Relevé manquant,2,Résolue
+REC00463,F006993,2025-07-29,Erreur de montant,4,Résolue
+REC00464,F007127,2025-07-13,Erreur de montant,2,Résolue
+REC00465,F007154,2025-06-14,Question sur le détail,4,Résolue
+REC00466,F007204,2025-05-20,Commission contestée,5,Résolue
+REC00467,F007393,2025-08-11,Facture en double,3,Résolue
+REC00468,F007427,2025-07-27,Autre,2,Résolue
+REC00469,F007444,2025-09-01,Question sur le détail,3,Résolue
+REC00470,F007688,2025-09-14,Erreur de montant,5,Résolue
+REC00471,F007694,2025-08-16,Taxe incorrecte,2,Résolue
+REC00472,F007777,2025-08-22,Relevé manquant,4,Résolue
+REC00473,F007819,2025-07-23,Commission contestée,4,Résolue
+REC00474,F007824,2025-09-06,Facture en double,4,Résolue
+REC00475,F007867,2025-08-07,Commission contestée,4,Résolue
+REC00476,F007891,2025-08-23,Question sur le détail,3,Résolue
+REC00477,F007957,2025-08-06,Relevé manquant,2,Résolue
+REC00478,F007965,2025-08-21,Commission contestée,2,Résolue
+REC00479,F007973,2025-08-19,Commission contestée,6,Résolue
+REC00480,F008011,2025-09-26,Erreur de montant,3,Résolue
+REC00481,F008307,2025-09-17,Autre,1,Résolue
+REC00482,F008489,2025-09-28,Relevé manquant,6,Résolue
+REC00483,F008562,2025-10-27,Question sur le détail,2,Résolue
+REC00484,F008751,2025-09-12,Question sur le détail,3,Résolue
+REC00485,F008772,2025-09-20,Erreur de montant,2,Résolue
+REC00486,F008877,2025-08-30,Commission contestée,3,Résolue
+REC00487,F008986,2025-08-31,Question sur le détail,5,Résolue
+REC00488,F009083,2025-11-02,Autre,2,Résolue
+REC00489,F009165,2025-09-11,Erreur de montant,3,Résolue
+REC00490,F009211,2025-08-28,Commission contestée,1,Résolue
+REC00491,F009219,2025-10-15,Taxe incorrecte,5,Résolue
+REC00492,F009327,2025-09-26,Erreur de montant,1,Résolue
+REC00493,F009373,2025-09-11,Erreur de montant,5,Résolue
+REC00494,F009649,2025-11-04,Question sur le détail,3,Résolue
+REC00495,F009680,2025-09-19,Question sur le détail,4,Résolue
+REC00496,F009702,2025-09-22,Autre,2,Résolue
+REC00497,F009717,2025-12-18,Question sur le détail,2,Résolue
+REC00498,F009749,2025-10-17,Relevé manquant,3,Résolue
+REC00499,F009783,2025-11-13,Erreur de montant,3,Résolue
+REC00500,F009789,2025-11-29,Commission contestée,5,Résolue
+REC00501,F009829,2025-10-26,Relevé manquant,6,Résolue
+REC00502,F009832,2025-12-27,Erreur de montant,5,Ouverte
+REC00503,F009911,2025-12-29,Relevé manquant,2,Résolue
+REC00504,F009922,2025-10-26,Taxe incorrecte,7,Résolue
+REC00505,F009930,2025-10-21,Commission contestée,4,Résolue
+REC00506,F010038,2025-11-02,Autre,3,Résolue
+REC00507,F010079,2025-11-03,Taxe incorrecte,2,Résolue
+REC00508,F010135,2025-11-24,Facture en double,2,Résolue
+REC00509,F010210,2025-11-09,Erreur de montant,5,Résolue
+REC00510,F010219,2025-11-08,Autre,4,Résolue
+REC00511,F010352,2025-12-29,Relevé manquant,2,Résolue
+REC00512,F010429,2025-12-26,Facture en double,4,Résolue
+REC00513,F010486,2025-12-15,Erreur de montant,2,Résolue
+REC00514,F010500,2025-12-12,Taxe incorrecte,3,Résolue
+REC00515,F010539,2025-12-22,Erreur de montant,7,Résolue
+REC00516,F010599,2025-12-30,Facture en double,1,Résolue
+REC00517,F010615,2026-01-03,Autre,3,Ouverte
+REC00518,F010661,2026-01-06,Question sur le détail,4,Ouverte
+REC00177,F002195,2024-07-19,Erreur de montant,9,Résolue
+REC00133,F001663,2024-05-08,Question sur le détail,9,Résolue
+REC00007,F000126,2024-02-13,Relevé manquant,6,Résolue
+REC00085,F001106,2024-05-10,Question sur le détail,8,Résolue
+REC00457,F006613,2025-04-27,Relevé manquant,4,Résolue
+REC00312,F004171,2024-12-06,Facture en double,4,Résolue
+REC00334,F004500,2024-11-09,Question sur le détail,7,Résolue
+REC00073,F000897,2024-03-19,Relevé manquant,8,Résolue
+REC00185,F002347,2024-09-04,Erreur de montant,8,Résolue
+REC00155,F001920,2024-07-05,Question sur le détail,7,Résolue
+REC00230,F002857,2024-09-02,Erreur de montant,5,Résolue
+REC00305,F004124,2024-10-29,Commission contestée,6,Résolue
+REC00094,F001179,2024-04-22,Relevé manquant,5,Résolue
+REC00102,F001336,2024-04-27,Commission contestée,8,Résolue
+REC00011,F000193,2024-01-12,Question sur le détail,7,Résolue

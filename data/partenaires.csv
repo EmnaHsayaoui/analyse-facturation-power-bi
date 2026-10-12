@@ -1,0 +1,121 @@
+partner_id,nom_partenaire,pays,categorie,taux_commission,devise
+P001,Partenaire 1,Maroc,Appartement,0.12,EUR
+P002,Partenaire 2,France,Appartement,0.2,EUR
+P003,Partenaire 3,Maroc,Hôtel,0.12,EUR
+P004,Partenaire 4,Tunisie,Riad,0.18,EUR
+P005,Partenaire 5,Canada,Hôtel,0.15,CAD
+P006,Partenaire 6,Portugal,Riad,0.12,EUR
+P007,Partenaire 7,Maroc,Hôtel,0.12,EUR
+P008,Partenaire 8,Maroc,Hôtel,0.15,EUR
+P009,Partenaire 9,Canada,Hôtel,0.18,CAD
+P010,Partenaire 10,France,Appartement,0.18,EUR
+P011,Partenaire 11,France,Hôtel,0.2,EUR
+P012,Partenaire 12,Portugal,Maison d'hôtes,0.2,EUR
+P013,Partenaire 13,Tunisie,Appartement,0.18,EUR
+P014,Partenaire 14,Maroc,Hôtel,0.18,EUR
+P015,Partenaire 15,France,Appartement,0.12,EUR
+P016,Partenaire 16,Canada,Hôtel,0.15,CAD
+P017,Partenaire 17,Tunisie,Maison d'hôtes,0.1,EUR
+P018,Partenaire 18,Canada,Riad,0.12,CAD
+P019,Partenaire 19,Maroc,Resort,0.2,EUR
+P020,Partenaire 20,Tunisie,Hôtel,0.15,EUR
+P021,Partenaire 21,Maroc,Riad,0.1,EUR
+P022,Partenaire 22,France,Riad,0.18,EUR
+P023,Partenaire 23,Portugal,Maison d'hôtes,0.2,EUR
+P024,Partenaire 24,Maroc,Appartement,0.2,EUR
+P025,Partenaire 25,Maroc,Riad,0.12,EUR
+P026,Partenaire 26,Canada,Hôtel,0.15,CAD
+P027,Partenaire 27,France,Hôtel,0.15,EUR
+P028,Partenaire 28,Canada,Appartement,0.12,CAD
+P029,Partenaire 29,Canada,Riad,0.12,CAD
+P030,Partenaire 30,Tunisie,Hôtel,0.12,EUR
+P031,Partenaire 31,Tunisie,Resort,0.2,EUR
+P032,Partenaire 32,Portugal,Resort,0.18,EUR
+P033,Partenaire 33,France,Hôtel,0.2,EUR
+P034,Partenaire 34,France,Appartement,0.2,EUR
+P035,Partenaire 35,France,Hôtel,0.2,EUR
+P036,Partenaire 36,Canada,Appartement,0.1,CAD
+P037,Partenaire 37,Canada,Hôtel,0.2,CAD
+P038,Partenaire 38,France,Appartement,0.1,EUR
+P039,Partenaire 39,Canada,Appartement,0.15,CAD
+P040,Partenaire 40,Tunisie,Resort,0.15,EUR
+P041,Partenaire 41,France,Hôtel,0.12,EUR
+P042,Partenaire 42,Maroc,Maison d'hôtes,0.1,EUR
+P043,Partenaire 43,Tunisie,Hôtel,0.1,EUR
+P044,Partenaire 44,France,Hôtel,0.2,EUR
+P045,Partenaire 45,Maroc,Appartement,0.12,EUR
+P046,Partenaire 46,Maroc,Riad,0.12,EUR
+P047,Partenaire 47,France,Resort,0.2,EUR
+P048,Partenaire 48,Canada,Resort,0.1,CAD
+P049,Partenaire 49,Tunisie,Hôtel,0.2,EUR
+P050,Partenaire 50,Canada,Maison d'hôtes,0.2,CAD
+P051,Partenaire 51,Canada,Hôtel,0.15,CAD
+P052,Partenaire 52,Canada,Appartement,0.1,CAD
+P053,Partenaire 53,Maroc,Hôtel,0.1,EUR
+P054,Partenaire 54,Tunisie,Maison d'hôtes,0.12,EUR
+P055,Partenaire 55,Tunisie,Hôtel,0.15,EUR
+P056,Partenaire 56,Maroc,Hôtel,0.1,EUR
+P057,Partenaire 57,France,Riad,0.15,EUR
+P058,Partenaire 58,Tunisie,Maison d'hôtes,0.1,EUR
+P059,Partenaire 59,Canada,Resort,0.15,CAD
+P060,Partenaire 60,Canada,Appartement,0.1,CAD
+P061,Partenaire 61,Tunisie,Resort,0.18,EUR
+P062,Partenaire 62,France,Resort,0.1,EUR
+P063,Partenaire 63,Tunisie,Appartement,0.1,EUR
+P064,Partenaire 64,Maroc,Hôtel,0.1,EUR
+P065,Partenaire 65,Tunisie,Resort,0.2,EUR
+P066,Partenaire 66,Tunisie,Appartement,0.1,EUR
+P067,Partenaire 67,Tunisie,Riad,0.15,EUR
+P068,Partenaire 68,France,Hôtel,0.15,EUR
+P069,Partenaire 69,Canada,Appartement,0.15,CAD
+P070,Partenaire 70,France,Hôtel,0.18,EUR
+P071,Partenaire 71,Canada,Maison d'hôtes,0.2,CAD
+P072,Partenaire 72,France,Hôtel,0.12,EUR
+P073,Partenaire 73,Maroc,Hôtel,0.2,EUR
+P074,Partenaire 74,Canada,Resort,0.12,CAD
+P075,Partenaire 75,Canada,Hôtel,0.2,CAD
+P076,Partenaire 76,Canada,Hôtel,0.15,CAD
+P077,Partenaire 77,Canada,Appartement,0.18,CAD
+P078,Partenaire 78,Tunisie,Resort,0.2,EUR
+P079,Partenaire 79,Tunisie,Hôtel,0.18,EUR
+P080,Partenaire 80,Maroc,Hôtel,0.2,EUR
+P081,Partenaire 81,Tunisie,Resort,0.15,EUR
+P082,Partenaire 82,France,Maison d'hôtes,0.1,EUR
+P083,Partenaire 83,Maroc,Appartement,0.15,EUR
+P084,Partenaire 84,Canada,Hôtel,0.1,CAD
+P085,Partenaire 85,Canada,Hôtel,0.2,CAD
+P086,Partenaire 86,Canada,Hôtel,0.12,CAD
+P087,Partenaire 87,Tunisie,Hôtel,0.12,EUR
+P088,Partenaire 88,France,Appartement,0.12,EUR
+P089,Partenaire 89,Canada,Hôtel,0.18,CAD
+P090,Partenaire 90,France,Appartement,0.15,EUR
+P091,Partenaire 91,Canada,Appartement,0.2,CAD
+P092,Partenaire 92,Tunisie,Appartement,0.15,EUR
+P093,Partenaire 93,France,Hôtel,0.12,EUR
+P094,Partenaire 94,France,Resort,0.1,EUR
+P095,Partenaire 95,France,Appartement,0.1,EUR
+P096,Partenaire 96,Tunisie,Appartement,0.12,EUR
+P097,Partenaire 97,France,Hôtel,0.2,EUR
+P098,Partenaire 98,Canada,Hôtel,0.15,CAD
+P099,Partenaire 99,Canada,Maison d'hôtes,0.2,CAD
+P100,Partenaire 100,Portugal,Riad,0.1,EUR
+P101,Partenaire 101,Portugal,Hôtel,0.1,EUR
+P102,Partenaire 102,Tunisie,Riad,0.2,EUR
+P103,Partenaire 103,Canada,Appartement,0.1,CAD
+P104,Partenaire 104,Portugal,Maison d'hôtes,0.1,EUR
+P105,Partenaire 105,Maroc,Hôtel,0.15,EUR
+P106,Partenaire 106,Tunisie,Maison d'hôtes,0.2,EUR
+P107,Partenaire 107,France,Hôtel,0.18,EUR
+P108,Partenaire 108,Canada,Appartement,0.1,CAD
+P109,Partenaire 109,Canada,Appartement,0.2,CAD
+P110,Partenaire 110,Portugal,Hôtel,0.2,EUR
+P111,Partenaire 111,France,Hôtel,0.2,EUR
+P112,Partenaire 112,Canada,Riad,0.2,CAD
+P113,Partenaire 113,France,Maison d'hôtes,0.12,EUR
+P114,Partenaire 114,Tunisie,Appartement,0.2,EUR
+P115,Partenaire 115,Canada,Maison d'hôtes,0.12,CAD
+P116,Partenaire 116,Maroc,Resort,0.2,EUR
+P117,Partenaire 117,Maroc,Riad,0.15,EUR
+P118,Partenaire 118,Tunisie,Resort,0.18,EUR
+P119,Partenaire 119,France,Hôtel,0.18,EUR
+P120,Partenaire 120,Tunisie,Hôtel,0.18,EUR
