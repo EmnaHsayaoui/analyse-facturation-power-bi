@@ -1,0 +1,31 @@
+=== CONTRÔLE QUALITÉ ===
+Doublons de factures supprimés : 60
+Doublons de réclamations supprimés : 15
+Taux de taxe reconstitués : 120
+Clients sans pays (-> 'Inconnu') : 30
+
+=== AVANT / APRÈS AUTOMATISATION (1er mars 2025) ===
+         factures  taux_erreur_%  delai_emission_j  taux_reclamation_%  payees_en_retard_%  delai_resolution_j
+periode                                                                                                       
+Avant        5601           7.07              6.97                7.75               36.17                7.51
+Après        5075           1.34              1.99                1.66               19.67                3.54
+
+=== TESTS STATISTIQUES (comparaison de deux proportions) ===
+Erreurs de facturation   avant  7.07 % -> après  1.34 %   z =  14.50   p = 1.18e-47
+Réclamations             avant  7.75 % -> après  1.66 %   z =  14.63   p = 1.72e-48
+Paiements en retard      avant 36.17 % -> après 19.67 %   z =  18.90   p = 1.06e-79
+
+Erreurs de facturation évitées sur la période 'Après' : ~291 factures (sur 5075 factures émises)
+
+Réclamations pour 1 000 factures (par type) :
+periode                 Avant  Après
+type_reclamation                    
+Erreur de montant        20.2    3.9
+Taxe incorrecte          12.9    1.4
+Question sur le détail   12.5    3.0
+Relevé manquant          11.4    2.6
+Commission contestée      8.4    1.8
+Facture en double         7.0    1.4
+Autre                     5.2    2.6
+
+Fichiers propres écrits dans /home/claude/projet_bi_facturation/data/clean

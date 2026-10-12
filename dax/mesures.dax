@@ -1,0 +1,160 @@
+// ============================================================================
+// MESURES DAX - Projet Facturation, commissions et réclamations
+// Modèle attendu (schéma en étoile) :
+//   Calendrier[date]        1 ---* Factures[date_facture]
+//   Clients[client_id]      1 ---* Factures[client_id]
+//   Partenaires[partner_id] 1 ---* Factures[partner_id]
+//   Factures[facture_id]    1 ---* Reclamations[facture_id]
+// Colonnes de Factures utilisées : montant_ht_cad, taxe_cad, commission_cad,
+//   erreur_facturation (0/1), delai_emission_jours, statut_paiement, date_echeance
+// Créez une table "Mesures" vide (Saisir des données) pour ranger tout ceci.
+// NB : ces mesures n'ont pas pu être exécutées dans Power BI Desktop depuis
+// l'environnement où elles ont été écrites ; leur logique a été vérifiée par les
+// requêtes SQL et le script pandas (mêmes résultats). Testez-les et ajustez les
+// noms de tables/colonnes si besoin.
+// ============================================================================
+
+
+// ---------------------------------------------------------------- 1. Base
+Nb Factures = DISTINCTCOUNT ( Factures[facture_id] )
+
+CA HT (CAD) = SUM ( Factures[montant_ht_cad] )
+
+Commissions (CAD) = SUM ( Factures[commission_cad] )
+
+Taux Commission = DIVIDE ( [Commissions (CAD)], [CA HT (CAD)] )
+
+Panier Moyen (CAD) = DIVIDE ( [CA HT (CAD)], [Nb Factures] )
+
+
+// ---------------------------------------------------------------- 2. Qualité de facturation
+Factures avec Erreur =
+CALCULATE ( [Nb Factures], Factures[erreur_facturation] = 1 )
+
+Taux Erreur = DIVIDE ( [Factures avec Erreur], [Nb Factures] )
+
+Délai Émission Moyen (j) = AVERAGE ( Factures[delai_emission_jours] )
+
+Nb Réclamations = DISTINCTCOUNT ( Reclamations[reclamation_id] )
+
+// Factures qui ont au moins une réclamation (une facture peut en avoir plusieurs)
+Factures avec Réclamation = DISTINCTCOUNT ( Reclamations[facture_id] )
+
+Taux Réclamation = DIVIDE ( [Factures avec Réclamation], [Nb Factures] )
+
+Délai Résolution Moyen (j) = AVERAGE ( Reclamations[delai_resolution_jours] )
+
+Réclamations pour 1000 Factures = DIVIDE ( [Nb Réclamations], [Nb Factures] ) * 1000
+
+
+// ---------------------------------------------------------------- 3. Encaissement
+Factures Payées en Retard =
+CALCULATE ( [Nb Factures], Factures[statut_paiement] = "Payée en retard" )
+
+Taux Paiement en Retard = DIVIDE ( [Factures Payées en Retard], [Nb Factures] )
+
+Montant Impayé TTC (CAD) =
+CALCULATE (
+    SUM ( Factures[montant_ht_cad] ) + SUM ( Factures[taxe_cad] ),
+    Factures[statut_paiement] = "Impayée"
+)
+
+Nb Factures Impayées =
+CALCULATE ( [Nb Factures], Factures[statut_paiement] = "Impayée" )
+
+
+// ---------------------------------------------------------------- 4. Temps : YoY, YTD, moyenne mobile
+CA HT N-1 =
+CALCULATE ( [CA HT (CAD)], SAMEPERIODLASTYEAR ( Calendrier[date] ) )
+
+Croissance CA YoY % =
+VAR Courant = [CA HT (CAD)]
+VAR Precedent = [CA HT N-1]
+RETURN
+    DIVIDE ( Courant - Precedent, Precedent )
+
+Commissions N-1 =
+CALCULATE ( [Commissions (CAD)], SAMEPERIODLASTYEAR ( Calendrier[date] ) )
+
+Croissance Commissions YoY % =
+DIVIDE ( [Commissions (CAD)] - [Commissions N-1], [Commissions N-1] )
+
+CA HT YTD = TOTALYTD ( [CA HT (CAD)], Calendrier[date] )
+
+// À utiliser dans un visuel au niveau du mois : on somme les 3 derniers mois puis on divise par 3.
+Commissions Moyenne Mobile 3 Mois =
+VAR DerniereDate = MAX ( Calendrier[date] )
+RETURN
+    DIVIDE (
+        CALCULATE (
+            [Commissions (CAD)],
+            DATESINPERIOD ( Calendrier[date], DerniereDate, -3, MONTH )
+        ),
+        3
+    )
+
+
+// ---------------------------------------------------------------- 5. Impact de l'automatisation
+// Ces deux mesures ignorent le filtre Avant/Après pour servir de référence fixe.
+Taux Erreur Avant Automatisation =
+CALCULATE (
+    [Taux Erreur],
+    REMOVEFILTERS ( Calendrier ),
+    Calendrier[apres_automatisation] = "Avant"
+)
+
+Taux Erreur Après Automatisation =
+CALCULATE (
+    [Taux Erreur],
+    REMOVEFILTERS ( Calendrier ),
+    Calendrier[apres_automatisation] = "Après"
+)
+
+Variation Taux Erreur (points) =
+[Taux Erreur Après Automatisation] - [Taux Erreur Avant Automatisation]
+
+// Nombre de factures en erreur "évitées" si le taux d'avant avait continué
+Erreurs Évitées =
+VAR NbApres =
+    CALCULATE ( [Nb Factures], REMOVEFILTERS ( Calendrier ), Calendrier[apres_automatisation] = "Après" )
+RETURN
+    ( [Taux Erreur Avant Automatisation] - [Taux Erreur Après Automatisation] ) * NbApres
+
+
+// ---------------------------------------------------------------- 6. Partenaires
+Rang Partenaire (commissions) =
+RANKX ( ALL ( Partenaires[partner_id] ), [Commissions (CAD)], , DESC, DENSE )
+
+Part des Commissions % =
+DIVIDE ( [Commissions (CAD)], CALCULATE ( [Commissions (CAD)], ALL ( Partenaires ) ) )
+
+
+// ---------------------------------------------------------------- 7. Mise en forme conditionnelle
+// Utilisation : champ "Format conditionnel > Valeur du champ" sur un visuel KPI
+Couleur Taux Erreur =
+SWITCH (
+    TRUE (),
+    [Taux Erreur] <= 0.02, "#1baf7a",   // vert  : <= 2 %
+    [Taux Erreur] <= 0.05, "#eda100",   // jaune : 2-5 %
+    "#e34948"                           // rouge : > 5 %
+)
+
+Libellé Tendance Erreur =
+VAR Delta = [Variation Taux Erreur (points)]
+RETURN
+    IF ( ISBLANK ( Delta ), "", IF ( Delta < 0, "▼ ", "▲ " ) & FORMAT ( ABS ( Delta ), "0.0%" ) )
+
+
+// ---------------------------------------------------------------- 8. Colonne calculée (sur Factures, pas une mesure)
+// Balance âgée au 31/12/2025 : à créer via "Nouvelle colonne" dans la table Factures
+// Tranche Retard =
+// VAR Jours = DATEDIFF ( Factures[date_echeance], DATE ( 2025, 12, 31 ), DAY )
+// RETURN
+//     SWITCH (
+//         TRUE (),
+//         Factures[statut_paiement] <> "Impayée", BLANK (),
+//         Jours <= 0,  "1. Non échue",
+//         Jours <= 30, "2. 1-30 j de retard",
+//         Jours <= 60, "3. 31-60 j de retard",
+//         "4. Plus de 60 j de retard"
+//     )

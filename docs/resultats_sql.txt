@@ -1,0 +1,101 @@
+
+=== 01_controle_qualite ===
+                       controle  valeur
+    Doublons factures supprimés      60
+      Taux de taxe reconstitués     120
+Doublons réclamations supprimés      15
+              Clients sans pays      30
+
+=== 02_kpi_globaux ===
+ nb_factures  ca_ht_cad  commissions_cad  taux_commission_moyen_pct
+       10676  6366860.0         962511.0                       15.1
+
+=== 03_avant_apres_automatisation ===
+periode  nb_factures  taux_erreur_pct  delai_emission_moyen_j  taux_reclamation_pct  delai_resolution_moyen_j  payees_en_retard_pct
+  Avant         5601             7.07                     7.0                  7.75                       7.5                  36.2
+  Après         5075             1.34                     2.0                  1.66                       3.5                  19.7
+
+=== 04_evolution_mensuelle ===
+   mois  commissions_cad  var_vs_mois_prec_pct  moy_mobile_3m  taux_erreur_pct
+2024-01          29484.0                   NaN        29484.0             5.52
+2024-02          31427.0                   6.6        30456.0             7.12
+2024-03          30603.0                  -2.6        30505.0             5.92
+2024-04          31820.0                   4.0        31283.0             5.51
+2024-05          28403.0                 -10.7        30276.0            10.64
+2024-06          35757.0                  25.9        31993.0             5.57
+2024-07          34934.0                  -2.3        33031.0             7.18
+2024-08          44683.0                  27.9        38458.0             6.43
+2024-09          49962.0                  11.8        43193.0             7.12
+2024-10          46477.0                  -7.0        47041.0             7.44
+2024-11          35440.0                 -23.7        43960.0             5.53
+2024-12          30455.0                 -14.1        37457.0             6.07
+2025-01          41361.0                  35.8        35752.0             9.30
+2025-02          38849.0                  -6.1        36889.0             9.31
+2025-03          39079.0                   0.6        39763.0             0.49
+2025-04          32931.0                 -15.7        36953.0             2.22
+2025-05          38453.0                  16.8        36821.0             1.15
+2025-06          37590.0                  -2.2        36325.0             0.87
+2025-07          50993.0                  35.7        42346.0             2.02
+2025-08          55902.0                   9.6        48162.0             1.29
+2025-09          59704.0                   6.8        55533.0             1.23
+2025-10          51952.0                 -13.0        55852.0             1.23
+2025-11          43205.0                 -16.8        51620.0             1.26
+2025-12          43045.0                  -0.4        46067.0             1.59
+
+=== 05_year_over_year_2025_vs_2024 ===
+ mois_num  ca_2024  ca_2025  croissance_yoy_pct
+        1 198223.0 274232.0                38.3
+        2 203870.0 252177.0                23.7
+        3 202013.0 261483.0                29.4
+        4 208047.0 223329.0                 7.3
+        5 185516.0 260102.0                40.2
+        6 239705.0 247002.0                 3.0
+        7 235830.0 332333.0                40.9
+        8 293541.0 366036.0                24.7
+        9 330904.0 393771.0                19.0
+       10 304879.0 345032.0                13.2
+       11 232983.0 282806.0                21.4
+       12 200706.0 292340.0                45.7
+
+=== 06_top_partenaires ===
+ rang partner_id pays_partenaire      categorie  nb_factures  commissions_cad  taux_reclamation_pct
+    1       P013         Tunisie    Appartement          101          23171.0                   7.9
+    2       P022          France           Riad           94          21314.0                   4.3
+    3       P088          France    Appartement          100          18812.0                   4.0
+    4       P023        Portugal Maison d'hôtes           86          17409.0                   7.0
+    5       P035          France          Hôtel           89          17406.0                   7.9
+    6       P078         Tunisie         Resort           83          16012.0                   2.4
+    7       P037          Canada          Hôtel           83          15277.0                   3.6
+    8       P020         Tunisie          Hôtel           95          15050.0                   5.3
+    9       P106         Tunisie Maison d'hôtes          100          14561.0                   4.0
+   10       P057          France           Riad           80          14540.0                   7.5
+
+=== 07_types_de_reclamations ===
+      type_reclamation  avant  apres  avant_pour_1000  apres_pour_1000
+     Erreur de montant    113     20             20.2              3.9
+       Taxe incorrecte     72      7             12.9              1.4
+Question sur le détail     70     15             12.5              3.0
+       Relevé manquant     64     13             11.4              2.6
+  Commission contestée     47      9              8.4              1.8
+     Facture en double     39      7              7.0              1.4
+                 Autre     29     13              5.2              2.6
+
+=== 08_vieillissement_des_impayes ===
+                  tranche  nb_factures  montant_ttc_cad
+             1. Non échue          343         216314.0
+      2. 1-30 j de retard           37          20194.0
+     3. 31-60 j de retard            4           4212.0
+4. Plus de 60 j de retard          198         121791.0
+
+=== 09_segments_clients ===
+    segment pays_client  nb_factures  ca_ht_cad
+Particulier      Canada         2631  1585133.0
+Particulier      France         1825  1092687.0
+Particulier  États-Unis         1033   648643.0
+     Agence      Canada          718   427747.0
+Particulier   Allemagne          663   392268.0
+Particulier Royaume-Uni          559   331169.0
+     Agence      France          532   310583.0
+Particulier     Tunisie          547   308019.0
+ Entreprise      Canada          429   233015.0
+     Agence  États-Unis          320   195235.0
