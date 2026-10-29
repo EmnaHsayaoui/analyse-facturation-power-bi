@@ -1,6 +1,6 @@
 # Facturation, commissions et réclamations : mesurer l'effet d'une automatisation
 
-Projet d'analyse de données de bout en bout (SQL, Python, Power BI) sur une plateforme de réservation d'hébergements.
+Projet d'analyse de données de bout en bout (SQL, Python) sur une plateforme de réservation d'hébergements.
 
 **Auteure :** Emna Hsayaoui, analyste de données et Business Analyst (Tunis, Tunisie).
 
@@ -23,7 +23,7 @@ Défauts de qualité volontairement présents : 60 factures en double, 120 taux 
 1. **Nettoyage** : suppression des doublons, reconstitution des taux de taxe d'après le pays du partenaire, normalisation des pays, conversion des montants en CAD.
 2. **Analyse SQL** (`sql/analysis.sql`, testée sur SQLite) : KPIs, comparaison avant/après, évolution mensuelle (fonctions de fenêtre `LAG`, moyenne mobile), Year-over-Year, top partenaires (`RANK`), balance âgée des impayés.
 3. **Analyse Python** (`python/03_analysis.py`) : mêmes indicateurs en pandas pour recouper les résultats, tests statistiques de comparaison de proportions, graphiques.
-4. **Dashboard Power BI** : modèle en étoile et mesures DAX (`dax/mesures.dax`). Le pas à pas de construction du rapport en 4 pages est dans [`docs/guide_power_bi.md`](docs/guide_power_bi.md). *Captures du dashboard à venir.*
+
 
 Les résultats SQL et pandas sont identiques (contrôle croisé).
 
@@ -71,7 +71,6 @@ python python/02_run_sql.py         # exécute sql/analysis.sql sur SQLite
 python python/03_analysis.py        # KPIs, tests, graphiques, data/clean/
 ```
 
-Puis suivez `docs/guide_power_bi.md` pour construire le dashboard.
 
 ## 8. Structure du dépôt
 
@@ -79,6 +78,5 @@ Puis suivez `docs/guide_power_bi.md` pour construire le dashboard.
 data/            CSV bruts (et clean/ : versions nettoyées)
 sql/             analysis.sql
 python/          01_generate_data.py, 02_run_sql.py, 03_analysis.py
-dax/             mesures.dax
-docs/            guide Power BI, dictionnaire de données, résultats, graphiques
+
 ```
